@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<materials>
+  <material name="fp_grass.png" max-speed="0.7" slowdown-time="1.0"/>
+  <material name="fp_litter.png" max-speed="0.6" slowdown-time="1.0"/>
+  <material name="fp_sand.png" max-speed="0.55" slowdown-time="1.0"/>
+  <material name="fp_vineyard.png" max-speed="0.6" slowdown-time="1.0"/>
+  <material name="fp_flowers.png" max-speed="0.6" slowdown-time="1.0"/>
+  <material name="fp_hillside.png" max-speed="0.6" slowdown-time="1.0"/>
+  <material name="fp_field.png" max-speed="0.6" slowdown-time="1.0"/>
+  <material name="fp_foliage.png" shader="alphatest" backface-culling="n" ignore="Y"/>
+  <material name="fp_foliage_dark.png" shader="alphatest" backface-culling="n" ignore="Y"/>
+  <material name="fp_foliage_light.png" shader="alphatest" backface-culling="n" ignore="Y"/>
+  <material name="fp_pine.png" shader="alphatest" backface-culling="n" ignore="Y"/>
+  <material name="fp_vines.png" shader="alphatest" backface-culling="n" ignore="Y"/>
+  <material name="fp_fence.png" shader="alphatest" backface-culling="n"/>
+  <material name="fp_railing.png" shader="alphatest" backface-culling="n"/>
+  <material name="fp_net.png" shader="alphatest" backface-culling="n"/>
+  <material name="fp_truss.png" shader="alphatest" backface-culling="n"/>
+  <material name="fp_ties.png" shader="alphatest" backface-culling="n"/>
+  <material name="fp_checker.png" ignore="Y"/>
+  <material name="fp_banner.png" ignore="Y"/>
+  <material name="fp_sign.png" ignore="Y"/>
+  <material name="fp_water.png" ignore="Y"/>
+  <material name="fp_lake.png" ignore="Y"/>
+  <material name="fp_basin.png" reset="Y" falling-effect="Y" water-splash="Y">
+    <sfx filename="splash.ogg" min_speed="5.00" max_speed="15.00" min_pitch="0.80" max_pitch="1.20" positional="true" rolloff="0.10"/>
+  </material>
+  <material name="fp_cascade.png" shader="alphablend" backface-culling="n" ignore="Y"/>
+  <material name="fp_boost.png">
+    <zipper duration="2.5" max-speed-increase="10.0" fade-out-time="2.0" speed-gain="8.0" min-speed="-1.0"/>
+  </material>
+</materials>
